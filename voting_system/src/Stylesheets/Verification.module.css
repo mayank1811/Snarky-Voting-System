@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap");
+
+.title {
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  margin-top: 0.5rem;
+}
+
+.para {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.05em;
+  margin: 0 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.formBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.95rem;
+}
+
+.proofBody {
+  margin: 2.1rem;
+}
+
+.form {
+  margin-left: 6rem;
+  width: 25rem;
+}
+
+.emblem {
+  width: 15rem;
+  margin-right: 6rem;
+}
+
+.goodStatus {
+  font-size: 1rem;
+  text-align: center;
+  color: green;
+  margin: 0;
+}
+
+.badStatus {
+  font-size: 1rem;
+  text-align: center;
+  color: red;
+  margin: 0;
+}
+
+.footerButton {
+  float: right;
+  margin: 1rem;
+  margin-top: 0;
+  border-color: white;
+}
+
+.none {
+  display: none;
+}
+
+.proofForm {
+  width: 35rem;
+  padding: 1.55rem;
+}
+
+.marginDiv {
+  margin: 2rem;
+}
+
+.verifyBTN {
+  margin-bottom: 2.5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .formBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+  }
+
+  .emblem {
+    width: 10rem;
+    margin-right: 0rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .outer {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+
+  .footerButton {
+    float: right;
+    margin: 1rem 0;
+  }
+
+  .form {
+    margin-left: 0rem;
+    width: 20rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .para {
+    font-size: 1rem;
+  }
+
+  .proofForm {
+    width: 22rem;
+  }
+}
